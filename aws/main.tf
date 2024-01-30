@@ -1,8 +1,8 @@
 resource "aws_vpc" "this" {
-  cidr_block  = var.aws_vpc_cidr
+  cidr_block  = var.network_cidr
 
   tags  = {
-    Name  = var.aws_vpc_name
+    Name  = var.network_name
     email = var.email
   }
 

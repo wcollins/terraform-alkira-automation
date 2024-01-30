@@ -13,15 +13,15 @@ variable "aws_secret_key" {
   sensitive   = true
 }
 
-variable "aws_region" {
+variable "region" {
   type        = string
 }
 
-variable "aws_vpc_name" {
+variable "network_name" {
   type        = string
 }
 
-variable "aws_vpc_cidr" {
+variable "network_cidr" {
   type        = string
 }
 
